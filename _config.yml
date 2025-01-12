@@ -1,33 +1,33 @@
 # Basic Site Settings
-locale			: "en-US"
-title			: "Blankybby"
-title_separator		: "|"
-description		: "The spellbook"
-url			: https://blankybby.github.io/
-repository		: "blankybby/blankybby.github.io"
+locale: "en-US"
+title: "Blankybby"
+title_separator: "|"
+description: "The spellbook"
+url: https://blankybby.github.io/
+repository: "blankybby/blankybby.github.io"
 
 # Site Author
 author:
 
-	# Bio info
-	avatar		: "profile.jpg"
-	name		: "Blinkybby"
-	bio		: "Wizardess in training"
-	location	: "United States of America, North American Continent, Planet Earth/Terra, 3rd rock from the Sun/Sol system, Milky Way galaxy, the Local Group, Virgo Supercluster, Laniakea Supercluster, within our Universe (which one?)"
+# Bio info
+avatar: "profile.jpg"
+name: "Blinkybby"
+bio: "Wizardess in training"
+location: "United States of America, North American Continent, Planet Earth/Terra, 3rd rock from the Sun/Sol system, Milky Way galaxy, the Local Group, Virgo Supercluster, Laniakea Supercluster, within our Universe (which one?)"
 
-	# Socials
-	youtube		: "@blankybby"
-	twitch		: "blankybby"
-	instagram	: "blankybby"
-	x		: "blankybby"
-	tiktok		: "@qtblankybby"
-	reddit		: "Maleficent-Dish-6595"
+# Socials
+youtube: "@blankybby"
+twitch: "blankybby"
+instagram: "blankybby"
+x: "blankybby"
+tiktok: "@qtblankybby"
+reddit: "Maleficent-Dish-6595"
 
 # Seo stuff
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 # Reading
 encoding: "utf-8"
