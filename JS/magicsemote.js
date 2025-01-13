@@ -48,5 +48,5 @@ var magics = document.getElementById('magicsemote') //hunt for ID from the page
 var t = setInterval(function() {
   magics.innerText = faces[i] ; //post the emoji
   i++
-  if (i >= words.length) i=0;
+  if (i >= faces.length) i=0;
 }, 1000); //speed
