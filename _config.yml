@@ -2,14 +2,14 @@
 locale: "en-US"
 title: "Blankybby"
 title_separator: "|"
-description: "The spellbook"
+description: "The spellbook where I share what I've learned in my jounry"
 url: https://blankybby.github.io/
 repository: "blankybby/blankybby.github.io"
 
 # Site Author
-author name: "Blinkybby"
-author bio: "Wizardess in training"
-author location: "United States of America, North American Continent, Planet Earth/Terra, 3rd rock from the Sun/Sol system, Milky Way galaxy, the Local Group, Virgo Supercluster, Laniakea Supercluster, within our Universe (which one?)"
+author_name: "Blinkybby"
+author_bio: "Wizardess in training"
+author_location: "United States of America, North American Continent, Planet Earth/Terra, 3rd rock from the Sun/Sol system, Milky Way galaxy, the Local Group, Virgo Supercluster, Laniakea Supercluster, into inifinity and beyond"
 
 # Socials
 youtube: "https://www.youtube.com/@blankybby"
