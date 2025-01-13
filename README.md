@@ -9,7 +9,7 @@ Currently rewiring my brain and learning all the things to become a real life wi
 
 
 ## Socials:
-[![Discord srv]](https://discord.gg/dn9WcgRn)<br>[![Instagram]](https://instagram.com/blankybby)<br>[![Reddit]](https://reddit.com/user/Maleficent-Dish-6595)<br>[![TikTok]](https://tiktok.com/@qtblankybby)<br>[![Twitch]](https://twitch.tv/blankybby)<br>[![X]](https://x.com/blankybby)<br>[![YouTube]](https://youtube.com/@blankybby) 
+[![Discord srv]](https://discord.gg/dn9WcgRn)<br>[![Instagram]](https://instagram.com/blankybby)<br>[![Reddit]](https://www.reddit.com/user/blankybby/)<br>[![TikTok]](https://tiktok.com/@qtblankybby)<br>[![Twitch]](https://twitch.tv/blankybby)<br>[![X]](https://x.com/blankybby)<br>[![YouTube]](https://youtube.com/@blankybby) 
 
 ---
 [![](https://visitcount.itsvg.in/api?id=blankybby&icon=0&color=0)](https://visitcount.itsvg.in)
