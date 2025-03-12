@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/images/Favicon.png">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="The spellbook. All the wizardry I've learned.">
+  <meta name="author" content="Blankybby">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blankybby | Home</title>
+</head>
+
+
+<body>
+
+  <div class="starfield" id="starfield"><!-- Space, space, space, space, space... -->
+    
+<table>
+    <tr>
+      <th style="background:skyblue;">
+        <p><span id="blinkyblinky">Currently in the works!</span></p>
+        <div id=magicsemote></div>
+      </th>
+      <th>
+        <div class="topper">
+          <h1 class="rainbow-text" style="margin-top:0; font-size:100px;"> <a href="/index.html" style="color:inherit;text-decoration:none;">Blankybby</a> </h1>
+          <p style ="margin-top:3%; margin-bottom:1%; color:ghostwhite;">Welcome to the spellbook that holds the wonderment of my journy!</p>
+        </div>
+      </th>
+    </tr>
+    <tr>
+      <th style="width:50px; height:100%; background:white;">
+          <p>Navigation</p>
+      </th>
+      <th style="width:800px;">
+        <marquee>Site is currently under construction, but have fun looking around!</marquee>
+      </th>
+    </tr>
+    <tr>
+      <th style="background:white;">
+        <table>
+          <tr><td><a href="/about.html">About</a></td></tr>
+          <tr><td><a href="/log.html">Log</a></td></tr>
+          <tr><td><a href="/projects.html">Projects</a></td></tr>
+        </table>
+      </th>
+      <th style="background:gray;">
+        <p>This space here is to help show things off the I've learned and am workin on.</p>
+        <p>The style is intentional. While not super professional by today's standards, I like the old school look. Crisp lines and eye seering color for that extra WOW factor.<br>
+        That Super WOW factor (∩°∀°)⊃━☆ﾟ*･｡*･:｡ﾟ*:･✿</p>
+        The pages herein are both as a place for me to practice static web and also to help highligh whassup.</p>
+      </th>
+    </tr>
+  </table>
+
+  </div>
+  <script>
+    const starfield = document.getElementById('starfield');
+    const numberOfStars = 200; // Density dial
+    const starColors = ['white', 'babyblue', 'violet']; // Colors 
+
+    // Propagatition
+    for (let i = 0; i < numberOfStars; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+
+      // Randomize starting position and animation delay
+      star.style.left = Math.random() * 100 + 'vw';
+      star.style.top = Math.random() * 100 + 'vh';
+
+      star.style.animationDelay = Math.random() * 3 + 's'; // Randomize spawn timing
+      star.style.animationDuration = 3 + Math.random() * 5 + 's'; // Slightly randomize speed
+
+      // Randomly assign a color
+      const randomColor = starColors[Math.floor(Math.random() * starColors.length)];
+      star.style.backgroundColor = randomColor;
+
+      starfield.appendChild(star);
+    }
+  </script>
+
+  <script src="/js/magicsemote.js"></script>
+
+</body>
+</html>

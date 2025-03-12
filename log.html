@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/98.css">
   <link rel="icon" type="image/png" href="/images/Favicon.png">
 
-  <meta charset="UTF-8">
   <meta name="description" content="The spellbook. All the wizardry I've learned.">
   <meta name="author" content="Blankybby">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,70 +15,74 @@
 <body>
 
   <div class="starfield" id="starfield"><!-- Space, space, space, space, space... -->
-    
-<table>
-    <tr>
-      <th style="background:skyblue;">
-        <p><span id="blinkyblinky">Currently in the works!</span></p>
-        <div id=magicsemote></div>
-      </th>
-      <th>
-        <div class="topper">
-          <h1 class="rainbow-text" style="margin-top:0; font-size:100px;"> <a href="/index.html" style="color:inherit;text-decoration:none;">Blankybby</a> </h1>
-          <p style ="margin-top:3%; margin-bottom:1%; color:ghostwhite;">Welcome to the spellbook that holds the wonderment of my journy!</p>
-        </div>
-      </th>
-    </tr>
-    <tr>
-      <th style="width:50px; height:100%; background:white;">
-          <p>Navigation</p>
-      </th>
-      <th style="width:800px;">
-        <marquee>Site is currently under construction, but have fun looking around!</marquee>
-      </th>
-    </tr>
-    <tr>
-      <th style="background:white;">
-        <table>
-          <tr><td><a href="/about.html">About</a></td></tr>
-          <tr><td><a href="/log.html">Log</a></td></tr>
-          <tr><td><a href="/projects.html">Projects</a></td></tr>
-        </table>
-      </th>
-      <th style="background:gray;">
-        <h2>Log</h2>
-        <p>Kinda like a captains log.</p>
-      </th>
-    </tr>
-  </table>
+    <table>
+      <tr>
+        <th style="background:skyblue;">
+          <p><span id="blinkyblinky">Currently in the works!</span></p>
+          <div id=magicsemote></div>
+        </th>
+        <th>
+          <div class="topper">
+            <h1 class="rainbow-text" style="margin-top:0; font-size:100px;"> <a href="/index.html" style="color:inherit;text-decoration:none;">Blankybby</a> </h1>
+            <marquee>Site is currently under construction, but have fun looking around!</marquee>
+          </div>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <div class="window" style="margin-top:2%;">
+            <div class="title-bar">
+              <div class="title-bar-text">Navigation</div>
+              <div class="title-bar-controls">
+                <a href="https://www.google.com"><button aria-label="Help"></button></a>
+              </div>
+            </div>
+            <div class="window-body" style="display: flex; flex-direction: column;flex-wrap: wrap;align-content:center;">
+                <div style="margin:2%;"><a href="./index.html"><button class="default">Home</button></a></div>
+                <div style="margin:2%;"><a href="./about.html"><button class="default">About</button></a></div>
+                <div style="margin:2%;"><button disabled>Log</button></div>
+                <div style="margin:2%;"><a href="./projects.html"><button class="default">Projects</button></a></div>
+                <div style="margin:2%;"><a href="./attributions.html"><button class="default">Attributions</button></a></div>
+                <div style="margin:2%;"><a href="./contact.html"><button class="default">Contact me</button></a></div>
+            </div>
+          </th>
+          <th style="background:ghostwhite;text-align:left;">
+            <div style="padding:1px 16px;">
+              <h2>Log</h2>
+              <p>Kinda like a captains log.</p>
+              <iframe src="https://free.timeanddate.com/clock/i9swy8fi/fn7/fs15/tct/pct/ftb/pd2/tt0/td2/th2/ta1/tb1" frameborder="0" width="395" height="23" allowtransparency="true"></iframe>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
 
-  </div>
-  <script>
-    const starfield = document.getElementById('starfield');
-    const numberOfStars = 200; // Density dial
-    const starColors = ['white', 'babyblue', 'violet']; // Colors 
+    <script>
+      const starfield = document.getElementById('starfield');
+      const numberOfStars = 200; // Density dial
+      const starColors = ['white', 'babyblue', 'violet']; // Colors 
 
-    // Propagatition
-    for (let i = 0; i < numberOfStars; i++) {
-      const star = document.createElement('div');
-      star.classList.add('star');
+      // Propagatition
+      for (let i = 0; i < numberOfStars; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
 
-      // Randomize starting position and animation delay
-      star.style.left = Math.random() * 100 + 'vw';
-      star.style.top = Math.random() * 100 + 'vh';
+        // Randomize starting position and animation delay
+        star.style.left = Math.random() * 100 + 'vw';
+        star.style.top = Math.random() * 100 + 'vh';
 
-      star.style.animationDelay = Math.random() * 3 + 's'; // Randomize spawn timing
-      star.style.animationDuration = 3 + Math.random() * 5 + 's'; // Slightly randomize speed
+        star.style.animationDelay = Math.random() * 3 + 's'; // Randomize spawn timing
+        star.style.animationDuration = 3 + Math.random() * 5 + 's'; // Slightly randomize speed
 
-      // Randomly assign a color
-      const randomColor = starColors[Math.floor(Math.random() * starColors.length)];
-      star.style.backgroundColor = randomColor;
+        // Randomly assign a color
+        const randomColor = starColors[Math.floor(Math.random() * starColors.length)];
+        star.style.backgroundColor = randomColor;
 
-      starfield.appendChild(star);
-    }
-  </script>
+        starfield.appendChild(star);
+      }
+    </script>
 
-  <script src="/js/magicsemote.js"></script>
+    <script src="./js/magicsemote.js"></script>
 
 </body>
 </html>

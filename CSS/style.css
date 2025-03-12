@@ -1,0 +1,104 @@
+body {
+  font-family: monospace;
+  height: 100vh;
+  background: black; /* Space background color */
+}
+
+marquee {color: white;}
+
+th,td {
+  height: auto;
+}
+
+tr {
+  height: auto;
+}
+
+table {
+  border: 5px solid ghostwhite;
+  border-radius: 10px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  height: auto;
+  display: flex;
+  height: 100%;
+}
+
+th:empty,td:empty {
+  display: none;
+}
+
+topper {
+  max-height: 45vh;
+  white-space: normal;
+}
+
+/* Replace old blink tag */
+#blinkyblinky{
+  color: white;
+  animation: blinking-blinkyblinky 1s linear infinite;
+}
+
+@keyframes blinking-blinkyblinky {
+  30% {
+    color: red;
+  }
+  70%{
+    color: white;
+  }
+}
+
+/* For Rainbow Coolness */
+.rainbow-text {
+  font-size: 3em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background-size: 200%; /* Smooth transition sizing */
+  -webkit-background-clip: text; /* Clips gradient to text */
+  -webkit-text-fill-color: transparent; /* Makes text transparent */
+  animation: color-wave 6s linear infinite; /* Continuous smooth animation */
+}
+
+@keyframes color-wave {
+  0% {
+    background-position: 200% 50%; /* Start of the gradient (far right) */
+  }
+  50% {
+    background-position: 100% 50%; /* Middle of the gradient */
+  }
+  100% {
+    background-position: 0% 50%; /* End of the gradient (far left) */
+  }
+}
+
+
+/* For Space! */
+.starfield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: fly 3s linear infinite;
+}
+
+@keyframes fly {
+  from {
+    transform: scale(0) translateZ(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(3) translateZ(-1000px);
+    opacity: 0;
+  }
+}
